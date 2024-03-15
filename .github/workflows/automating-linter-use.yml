@@ -1,4 +1,4 @@
-name : Lint When Pull Request
+name: Lint When Pull Request
 
 on:
  pull-request:
