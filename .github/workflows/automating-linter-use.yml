@@ -21,7 +21,7 @@ jobs:
       node-version: ${{env.NODE_VERSION}}
 
    - name: Code Checkout
-     uses: actions/checout@v4
+     uses: actions/checkout@v4
 
    - name: Install Dependencies
      run: npm ci
